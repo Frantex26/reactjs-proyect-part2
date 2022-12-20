@@ -1,0 +1,44 @@
+section .cart{
+    position: relative;
+    border: 1px solid rgb(131, 2, 2);
+}
+.amount span{
+    color: rgb(255, 60, 0);
+    padding: 0 20px;
+}
+.amount .count{
+    width: 40px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: rgb(255, 159, 14);
+    cursor: pointer;
+    font-weight: 900;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total a{
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    color: rgb(209, 255, 3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+}
+.total h3{
+    margin-right: 50px;
+    color: rgb(255, 102, 0);
+}
